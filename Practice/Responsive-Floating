@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+  body {
+  padding-top: 80px;
+  text-align: center;
+  font-family: century gothic;
+  background-image:url(../Background%20Img/laptop.png); background-repeat:no-repeat;
+  background-size: cover;
+}
+h1, h2 {
+  display: inline-block;
+  background: #fff;
+}
+h1 {
+  font-size: 30px; text-shadow:}
+  
+h2 {
+  font-size: 20px;
+}
+span {
+  background: #fd0;
+}
+
+.main{width:800px; 
+      height:200px; 
+      background-color:red;
+      margin-left:auto;
+      margin-right:auto;}
+
+
+  .left{width:150px; 
+      height:200px; 
+      background-color:#ccc;
+      float:left;
+	  }
+      
+   .middle{width:150px; 
+      height:200px; 
+      background-color:#cff;
+     float:left;
+	  }
+      
+   .right{width:150px; 
+      height:200px; 
+      background-color:#fcc;
+      float:left;
+	  }
+      
+   .bot1{clear:both;
+	   width:400px; 
+      height:200px; 
+      background-color:#ff6;
+     /*float:left;*/}
+      
+   .bot2{width:400px; 
+      height:200px; 
+      background-color:#6cf;
+    /*float:left;*/}
+      
+   .bot3{width:400px; 
+      height:200px; 
+      background-color:#66c;
+      /*float:left;*/}  
+
+@media screen and (max-width:600px){
+	.main {width:600px;
+		background-color:green;}
+	
+	.left{width:100px; background-color:black; }
+      
+   .middle{width:100px; background-color:yellow;
+    	  }
+      
+   .right{width:100px;background-color:maroon; }
+   
+   .bot1{clear:left; list-item; width:100px;
+      background-color:red; float:left;
+      }
+      
+   .bot2{width:100px; float:left;
+     
+      background-color:blue;
+    }
+      
+   .bot3{width:100px; float:left;       
+      background-color:orange;
+      } 	
+
+}
+	 
+</style>
+
+</head>
+
+<body>
+
+
+
+<h1>Welcome to <span>Farzan</span></h1><br>
+<h2>(a realtime html + css editor)</h2>
+<div class="main"> 
+  <div class="left"> </div>
+  <div class="middle"> </div>
+  <div class="right"> </div>
+
+  <div class="bot1"> </div>
+  <div class="bot2"> </div>
+  <div class="bot3"> </div>
+</div>
+</body>
+</html>
